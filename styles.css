@@ -1,35 +1,70 @@
 html, body{
     margin: 0;
     height: 100%;
+    background-color:white;
 }
 
 /* من الخواص التي يجب تغيرها لكي تصل للمطلوب
     1. لون الخلفيه
     2. الطول والعرض
-    3. الهوامش
-    4. الحواشي
+    3.  margins الهوامش
+    4. الحواشي padding 
     5. نوع العرض
     6. border radius */
 
 /* عند الحاجه w3schools قم بالاستعانه بموقع  */
 
 .sidebar{
+   
+    background-color: black;
+    border-radius: 8px;
+    width: 120px;
+    height: 1760px;
+    margin-top: 9px;
+    /* padding-top: 20px; */
+  color: white;
+    /* height: 100vh; */
+
+
     /* pxالعرض هنا يجب ان يكون 120 */
 }
 
 .header{
+    display: flex;
+    padding-top: 20px;
+    border-radius: 8px;
+    background-color:blue;
+    height: 100px;
+    margin-top: 6px;
+
+    color: black;
+
+/* ملاحظة جعلت الطول هنا ١٠٠ ليكون الشكل مناسب اكثر */
     /* pxالطول هنا يجب ان يكون 80 */
 }
 
+p{
+    text-align: center;
+}
 .main{
-
+    background-color: rgb(43, 187, 187);
+    height: 100%;
+    padding: 20px;
+    border-radius: 8px;
+margin-top: 9px;
+    color: black;
+    
+   
 }
 
 a{
     color: darkgray;
+    text-decoration: none;
     /* اجعل شكل اللنك من غير خط اسفل الكلام */
 }
-
+a:hover{
+color: springgreen;
+}
 /* !بــونص */
 /* (hover) اجعل اللنك يتغير لونه الى الابيض عند التأشير عليه */
 /* (p) غير محاذاة الفقرات لتصبح بالوسط */
@@ -46,3 +81,10 @@ h2{
     margin-left: 5px;
 }
 
+.all{
+    display: flex;
+   height: 100pc;
+}
+.middle{
+    margin: 4px;
+}
